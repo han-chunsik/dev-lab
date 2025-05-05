@@ -1,5 +1,7 @@
 # 일급 컬렉션 성능 실험
 
+> 관련 글: [일급 컬렉션이 무엇인가요?](https://han-chunsik.github.io/books/01_challenge/2025-04-27-daily_interview/daily_interview.html#%EC%9E%A5%EB%8B%A8%EC%A0%90)
+
 > **JMH(Java Microbenchmark Harness)란?**  
 > @Benchmark 애노테이션만으로 메서드 성능을 정밀하게 측정할 수 있는 도구로, JIT 최적화와 GC의 영향을 줄이기 위해 별도 JVM 실행(fork), 워밍업(warmup) 반복 후 본 측정(iteration)
 을 수행하며, 측정 결과는 평균값, 표준편차 등 통계로 자동 분석 가능
