@@ -13,7 +13,7 @@ BASE_BACKOFF_SEC = 0.1
 
 # 결과 저장 경로
 BASE_DIR = Path(__file__).resolve().parent
-RESULT_DIR = BASE_DIR / "../../analysis/retry/result"
+RESULT_DIR = BASE_DIR / "./analysis/result"
 RESULT_DIR.mkdir(parents=True, exist_ok=True)
 
 

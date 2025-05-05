@@ -4,13 +4,13 @@ import os
 
 # 🔧 분석할 CSV 파일 목록
 CSV_PATHS = [
-    "./analysis/retry/result/simple_retry.csv",
-    "./analysis/retry/result/backoff.csv",
-    "./analysis/retry/result/full_jitter_backoff.csv",
+    "./analysis/result/simple_retry.csv",
+    "./analysis/result/backoff.csv",
+    "./analysis/result/full_jitter_backoff.csv",
 ]
 
 # 🔧 출력 폴더
-OUTPUT_DIR = "./analysis/retry/graph"
+OUTPUT_DIR = "./analysis/graph"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
