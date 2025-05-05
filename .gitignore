@@ -1,12 +1,38 @@
-# Byte-compiled / optimized / DLL files
+# -----python-----#
+## Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environments
+## Virtual environments
 env/
 venv/
 ENV/
 .venv/
 **/venv/
 **/.venv/
+
+
+# -----java-----#
+#Gradle files
+.gradle/
+build/
+bin/
+gradle/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# Java class files
+*.class
+
+# Environment-specific files
+*.env
+.DS_Store
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/

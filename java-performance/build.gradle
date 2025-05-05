@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'me.champeau.jmh' version '0.7.2'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // JMH 코어 의존성
+    jmh 'org.openjdk.jmh:jmh-core:1.37'
+    jmh 'org.openjdk.jmh:jmh-generator-annprocess:1.37'
+}
+
+jmh {
+    warmupIterations = 5     // JVM 워밍업 횟수
+    iterations = 10           // 실제 측정 반복 횟수
+    fork = 2                 // 별도 JVM 실행 횟수
+    timeOnIteration = '1s' // 측정(iteration) 한 번당, 해당 벤치마크 메서드를 얼마나 오랫동안 실행할지를 시간 기준으로 설정
+    resultFormat = 'CSV'
+}
