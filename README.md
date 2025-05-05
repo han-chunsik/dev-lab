@@ -7,6 +7,7 @@
 - 📁 analysis/: 실험 결과 데이터 및 시각화  
 
 ## 실험
-### [1. 재시도 테스트](https://github.com/han-chunsik/dev-lab/blob/main/docs/2025_05_01_retry.md)
+### [1. 재시도 테스트]()
+> python 3.9.6
 - 다양한 재시도(Retry) 전략 구현 및 요청 분산 비교
 
